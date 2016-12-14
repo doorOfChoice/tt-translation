@@ -1,0 +1,35 @@
+tt is a terminal translation software/ by dawndevil
+tt [WORDS] [-OPTIONS]
+for example:
+
+tt hello -f en -t zh
+
+-f source language   
+-t destination language
+-r reverse the language
+---------------------------------------------------
+language support
+zh  : Chinese(简体中文)
+en  : English(英语)
+cht : Chinese traditional(繁体中文)
+wym : Classical Chinses(文言文)
+jp  : Jpanese(日语)
+kor : Korean(韩语)
+dan : Danish(丹麦)
+ara : Arabic(阿拉伯)
+est : Estonia(爱沙尼亚)
+bul : Bulgaria(保加利亚)
+pl  : Poland(波兰)
+de  : German(德国)
+ru  : Russian(俄罗斯)
+fra : Franch(法语)
+th  : Thai(台语)
+nl  : Holland(荷兰)
+cs  : Czesh(捷克)
+rom : Romania(罗马尼亚)
+pt  : Portuguese(葡萄牙)
+swe : Swedish(瑞典)
+slo : Slovenia(斯洛文尼亚)
+spa : Spaish(西班牙语)
+el  : Greek(希腊语)
+hu  : Hungarian(匈牙利)
