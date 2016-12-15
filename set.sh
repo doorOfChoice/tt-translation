@@ -4,7 +4,7 @@ cat ~/.bashrc  | grep -q $(pwd) || echo alias tt=\"java -jar "$(pwd)"/trans.jar\
 
 cat ~/.zshrc  | grep -q $(pwd) || echo alias tt=\"java -jar "$(pwd)"/trans.jar\" >> ~/.zshrc
 
+source ~/.zshrc
+#export PATH=$PATH:$(pwd)
 
-export PATH=$PATH:$(pwd)
-
-echo alias tt=\"java -jar "$(pwd)"/trans.jar\"
+#echo alias tt=\"java -jar "$(pwd)"/trans.jar\"

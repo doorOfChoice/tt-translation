@@ -100,7 +100,7 @@ public class Translation {
 			}
 			input.close();
 		}
-
+		
 		for(int i = 0 ; i < args.length ; ++i){
 			
 			if(args[i].equals("-f")){	//指定源语言
@@ -120,8 +120,11 @@ public class Translation {
 				words += args[i] + " ";
 			}
 		}
+		//没有翻译内容
+		if(words.equals(""))
+			System.exit(0);
 		
-		//��Ӧ�ı�
+		//返回相应请求
 		String response = get("http://fanyi-api.baidu.com/api/trans/vip/translate", words, from, to, id, prikey);
 		
 		String end = WebOperation.getJSON(response).get("dst");
